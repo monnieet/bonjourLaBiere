@@ -1,0 +1,132 @@
+/* Definition des polices personnalisees */
+
+@font-face {
+    font-family: 'dayrom';
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Definition des styles principaux */
+
+body
+{
+	background: url("../images/bar.jpg") fixed no-repeat;
+	background-size: cover;
+	font-family: sans-serif, 'Trebuchet MS', Arial;
+}
+
+#bloc_page
+{
+	width: 1100px;
+	margin: auto;
+}
+
+header, h1, h2
+{
+	font-family: dayrom, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+em {
+	font-weight: bold;
+}
+
+
+/* Header */
+
+#menu
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	align-items: flex-end;
+	background-color: rgba(24,24,24,0.8);
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	color: white;
+}
+
+#nom {
+	font-size: 0.7em;
+	margin-left: 15px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 15px;
+}
+
+nav a {
+	color: white;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav a:hover {
+	color: #b00404;
+	border-bottom: 3px solid #b00404;
+}
+
+
+
+/* Corps principal */
+
+
+#suggestion {
+	background-color: rgba(24,24,24,0.8);
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	margin-top: 75px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding: 10px;
+	font-size: 0.9em;
+	width: 800px;
+}
+
+section h2 {
+	text-decoration: underline;
+}
+
+section p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Admin login */
+
+#adminLogin {
+	background-color: rgba(24,24,24,0.8);
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 0.9em;
+	width: 300px;
+	color: white;
+	text-align: center;
+}
+
+#adminLogin h3 {
+	text-decoration: underline;
+}
